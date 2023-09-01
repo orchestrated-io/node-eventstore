@@ -1,6 +1,6 @@
 {
   "author": "adrai",
-  "name": "@wtfiwtz/eventstore",
+  "name": "@orchestrated-io/eventstore",
   "version": "1.15.5",
   "contributors": [
     {
@@ -15,7 +15,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git@github.com:wtfiwtz/node-eventstore.git"
+    "url": "git@github.com:orchestrated-io/node-eventstore.git"
   },
   "description": "Node-eventstore is a node.js module for multiple databases. It can be very useful as eventstore if you work with (d)ddd, cqrs, eventsourcing, commands and events, etc.",
   "keywords": [
@@ -42,9 +42,9 @@
   "dependencies": {
     "async": "^2.6.2",
     "debug": "3.1.0",
-    "dotty": "0.0.2",
+    "dotty": ">=0.0.2",
     "jsondate": "0.0.1",
-    "lodash": "4.17.19",
+    "lodash": ">=4.17.19",
     "parent-require": "1.0.0",
     "tolerance": "1.0.0",
     "uuid": "3.3.3"
