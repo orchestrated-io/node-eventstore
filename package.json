@@ -63,5 +63,9 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "private"
   }
 }
